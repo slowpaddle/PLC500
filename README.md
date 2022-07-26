@@ -44,6 +44,7 @@ eg: setYA(1, 899) / Reads the value and returns it as an int.
 
 --------------------------------------------------------------------------------
 function: setY(n, v) - Digital Outputs Y1 to Y12
+
 	Writes a value where n is the digital output number on the PLC500 board.
 	
 eg: setY(1, HIGH) / Sets the output, reads the changed state and returns it as a bool.
