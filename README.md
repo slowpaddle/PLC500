@@ -23,7 +23,7 @@ function: readX(n) - Digital Inputs X1 to X16
 eg: readX(2) / Returns the value as bool. (HIGH/LOW), (true/false), (ON/OFF)
 
 --------------------------------------------------------------------------------
-function: readXA(n) - Analog Inputs XA1 to XA16
+function: readXA(n) - Analog Inputs XA1 to XA12
 
 	Reads the value of an analog input where n is the analog input number on the PLC500 board.
 	XA1 thru XA8 : 5V reads 511, 10V reads 1023
