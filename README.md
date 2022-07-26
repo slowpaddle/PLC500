@@ -25,6 +25,8 @@ eg: readX(2) / Returns the value as bool. (HIGH/LOW), (true/false), (ON/OFF)
 function: readXA(n) - Analog Inputs XA1 to XA16
 
 	Reads the value of an analog input where n is the analog input number on the PLC500 board.
+	XA1 thru XA8 : 5V reads 511, 10V reads 1023
+	XA9 thru XA12 : 4mA reads 205, 20mA reads 1023
 
 eg: readXA(2) / Returns the value as int.
 
@@ -56,6 +58,7 @@ Options (HIGH/LOW), (true/false), (ON/OFF)
 function: setYA(n, v) - Analog Outputs YA1 to YA8
 
 	Writes a value where n is the analog output number on the PLC500 board.
-	127 causes 5V, 255 causes 10V
+	YA1 & YA2: 0 causes 4mA, 255 causes 20mA (Using the 4-20ma output pins.)
+	YA1 & YA2: 127 causes 5V, 255 causes 10V (Using the voltage output pins.)
 
 eg: setYA(1, 127) / Sets the output, reads the changed value and returns it as an int.
