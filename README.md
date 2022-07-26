@@ -60,7 +60,7 @@ Options (HIGH/LOW), (true/false), (ON/OFF)
 function: setYA(n, v) - Analog Outputs YA1 to YA8
 
 	Writes a value where n is the analog output number on the PLC500 board and
-	v is the value.
+	v is the value. (0 to 255)
 	Values for YA1 & YA2: 0 causes 4mA, 255 causes 20mA (Using the 4-20ma output pins.)
 	Values for YA1 & YA8: 127 causes 5V, 255 causes 10V (Using the voltage output pins.)
 
