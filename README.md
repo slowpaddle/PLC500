@@ -49,7 +49,8 @@ eg: setYA(1, 899) / Reads the value and returns it as an int.
 --------------------------------------------------------------------------------
 function: setY(n, v) - Digital Outputs Y1 to Y12
 
-	Writes a value where n is the digital output number on the PLC500 board.
+	Writes a value where n is the digital output number on the PLC500 board and
+	v is the value.
 	
 eg: setY(1, HIGH) / Sets the output, reads the changed state and returns it as a bool.
 
@@ -58,8 +59,9 @@ Options (HIGH/LOW), (true/false), (ON/OFF)
 --------------------------------------------------------------------------------
 function: setYA(n, v) - Analog Outputs YA1 to YA8
 
-	Writes a value where n is the analog output number on the PLC500 board.
-	YA1 & YA2: 0 causes 4mA, 255 causes 20mA (Using the 4-20ma output pins.)
-	YA1 & YA8: 127 causes 5V, 255 causes 10V (Using the voltage output pins.)
+	Writes a value where n is the analog output number on the PLC500 board and
+	v is the value.
+	Values for YA1 & YA2: 0 causes 4mA, 255 causes 20mA (Using the 4-20ma output pins.)
+	Values for YA1 & YA8: 127 causes 5V, 255 causes 10V (Using the voltage output pins.)
 
 eg: setYA(1, 127) / Sets the output, reads the changed value and returns it as an int.
