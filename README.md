@@ -32,7 +32,6 @@ function: readXA(n) - Analog Inputs XA1 to XA16
 eg: readXA(2) / Returns the value as int.
 
 --------------------------------------------------------------------------------
-
 function: readY(n) - Digital Outputs Y1 to Y12
 
 	Reads the value of a digital input where n is the digital input number on the PLC500 board.
