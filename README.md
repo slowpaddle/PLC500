@@ -15,6 +15,7 @@ function: PLC500Setup() / REQUIRED!
 	This routine initializes all of the pins for their respective use on the PLC500 board and turns all
 	outputs off on start-up.
 
+--------------------------------------------------------------------------------
 function: readX(n) - Digital Inputs X1 to X16
 
 	Reads the value of a digital input where n is the digital input number on the PLC500 board.
