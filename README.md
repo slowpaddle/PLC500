@@ -11,6 +11,7 @@ PLC 500-24 - https://universal-solder.ca/product/canaduino-plc-500-24-industrial
 
 --------------------------------------------------------------------------------
 function: PLC500Setup() / REQUIRED!
+
 	This routine initializes all of the pins for their respective use on the
  	PLC500 board and turns all outputs off on start.
 
