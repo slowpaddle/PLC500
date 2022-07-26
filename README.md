@@ -4,8 +4,7 @@ This library is intend for use with the CANADUINO PLC 500 Series boards.
 This library and sample code is open source and free to use/modify.
 
 --------------------------------------------------------------------------------
-The intent of this library is to simplify the process of accessing the inputs and outputs on
-the board using the board naming convention.
+The intent of this library is to simplify the process of accessing the inputs and outputs on the board using the board naming convention.
 
 PLC 500-AC - https://universal-solder.ca/product/canaduino-plc-500-ac-industrial-plc-120-240v-ac-wifi-compatible-with-arduino 
 
