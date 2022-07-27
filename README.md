@@ -83,7 +83,8 @@ eg: setYA(1, 127) / Sets the output, reads the changed value and returns it as a
 	      setY(i, OFF);
 	    }
 	  }
-	  
+	}
+	
 	/*
 	* Alernatively
 	*
@@ -92,4 +93,4 @@ eg: setYA(1, 127) / Sets the output, reads the changed value and returns it as a
   	*	}
 	*
 	*/
-	}
+	
