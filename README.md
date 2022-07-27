@@ -1,6 +1,6 @@
 # PLC500
 
-This library is intend for use with the CANADUINO PLC 500 Series boards.
+This Arduino library is intend for use with the CANADUINO PLC 500 Series boards.
 This library and sample code is open source and free to use/modify.
 
 --------------------------------------------------------------------------------
