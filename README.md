@@ -65,3 +65,22 @@ function: setYA(n, v) - Analog Outputs YA1 to YA8
 	Values for YA1 & YA8: 127 causes 5V, 255 causes 10V (Using the voltage output pins.)
 
 eg: setYA(1, 127) / Sets the output, reads the changed value and returns it as an int.
+
+--------------------------------------------------------------------------------
+	//Example Code
+	#include <PLC500.h>
+
+	void setup() {
+	  PLC500Setup();  // Initializes Inputs and Outputs
+	}
+
+	void loop() {  
+	  for (int i=1; i<13; i++) {  	// Read the input pins
+	    if(readX(i) == ON) {      	// If the input is ON/true/HIGH, turn the same numbered output ON/true/HIGH
+	      setY(i, ON);
+	    }
+	    else {	// If the input is OFF/false/LOW, turn the same numbered output OFF/false/LOW
+	      setY(i, OFF);
+	    }
+	  }
+}
