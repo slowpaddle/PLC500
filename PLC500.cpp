@@ -31,13 +31,7 @@ void PLC500Setup() {
 	for(int i=1; i<13; i++) {
 		pinMode(outY[i], OUTPUT);
 		digitalWrite(outY[i], LOW);
-	}
-
-	// Initialize analog outputs and set to 0
-	for(int i=1; i<9; i++) {
-		pinMode(outYA[i], OUTPUT);
-		digitalWrite(outYA[i], 0);
-	}  
+	}	  
 }
 
 // =============================================================
