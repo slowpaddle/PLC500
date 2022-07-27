@@ -85,7 +85,7 @@ eg: setYA(1, 127) / Sets the output, reads the changed value and returns it as a
 	  }
 	/*
 	* Alernatively
-	* 	for (int i=1; i<13; i++) {  	// Read the input pins
+	*	for (int i=1; i<13; i++) {  	// Read the input pins
     	*		setY(i,(readX(i) == ON) ? 1 : 0);    
   	*	}
 	*/
