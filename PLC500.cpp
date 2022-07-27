@@ -79,11 +79,11 @@ bool readX(int x) {
 }
 
 // =============================================================
-// Read the value of an analog input (8 total)
+// Read the value of an analog input (16 total)
 // =============================================================
 int readXA(int x) {
 	int result;
-	if(x < 9 && x > 0) {
+	if(x < 17 && x > 0) {
 		result = analogRead(inXA[x]);
 	}
 	else {
@@ -108,7 +108,7 @@ bool readY(int x) {
 }
 
 // =============================================================
-// Read the value of an analog input (8 total)
+// Read the value of an analog output (8 total)
 // =============================================================
 int readYA(int x) {
 	int result;
