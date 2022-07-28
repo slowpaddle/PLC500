@@ -90,9 +90,12 @@ eg: setYA(1, 127) / Sets the output, reads the changed value and returns it as a
 	* Alternatively
 	*
 	*	for (int i=1; i<13; i++) {  	// Read the input pins
+	*
 	*		setY(i,(readX(i) == ON) ? ON : OFF);     // Set the output pins
-	*		OR
-	*		setY(i,(readX(i));
+	*
+	*		Or Simply
+	*
+	*		setY(i,(readX(i));	// Set the output pins to input pin state
   	*	}
 	*
 	*/
