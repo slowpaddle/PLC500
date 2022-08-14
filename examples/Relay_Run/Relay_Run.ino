@@ -22,23 +22,14 @@
  Reads the value of an analog input where n is the analog input number on the PLC500 board.
  eg: readXA(2) / Returns the value as int.
 
- function: readY(n) - Digital Outputs Y1 to Y12
- Reads the value of a digital input where n is the digital input number on the PLC500 board.
- eg: readY(2) / Returns the value as bool. (HIGH/LOW), (true/false), (ON/OFF)
- 
- function: readYA(n) - Analog Outputs YA1 to YA8
- Writes a value where n is the analog output number on the PLC500 board.
- eg: setYA(1, 899) / Reads the value and returns it as an int.
- 
  function: setY(n, v) - Digital Outputs Y1 to Y12
  Writes a value where n is the digital output number on the PLC500 board.
- eg: setY(1, HIGH) / Sets the output, reads the changed state and returns it as a bool. / Options (HIGH/LOW), (true/false), (ON/OFF)
+ eg: setY(1, HIGH) / Sets the output. / Options (HIGH/LOW), (true/false), (ON/OFF)
 
- function: setYA(n, v) - Analog Outputs YA1 to YA8
+ function: setYA(n, v) _ Analog Outputs YA1 to YA8
  Writes a value where n is the analog output number on the PLC500 board.
- eg: setYA(1, 899) / Sets the output, reads the changed value and returns it as an int.
+ eg: setYA(1, 899) / Sets the output.
 */
-
 
 void setup() {
 
