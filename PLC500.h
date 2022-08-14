@@ -27,11 +27,11 @@
 
  function: setY(n, v) - Digital Outputs Y1 to Y12
  Writes a value where n is the digital output number on the PLC500 board.
- eg: setY(1, HIGH) / Sets the output, reads the changed state and returns it as a bool. / Options (HIGH/LOW), (true/false), (ON/OFF)
+ eg: setY(1, HIGH) / Sets the output. / Options (HIGH/LOW), (true/false), (ON/OFF)
 
  function: setYA(n, v) _ Analog Outputs YA1 to YA8
  Writes a value where n is the analog output number on the PLC500 board.
- eg: setYA(1, 899) / Sets the output, reads the changed value and returns it as an int.
+ eg: setYA(1, 899) / Sets the output.
 */
 
 // Digital States
@@ -56,14 +56,14 @@ void PLC500Setup();
 // eg: bool value = setY(2, true)
 // Returns the read state of the changed output
 // =============================================================
-bool setY(int x, bool y);
+void setY(int x, bool y);
 
 // =============================================================
 // Set the value of an analog output
 // eg: int value = setY(1, 1000)
 // Returns the read state of the changed output
 // =============================================================
-int setYA(int x, int y);
+void setYA(int x, int y);
 
 // =============================================================
 // Read the state of a digital input
