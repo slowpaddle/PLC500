@@ -37,31 +37,23 @@ void PLC500Setup() {
 // =============================================================
 // Set the state of a digital output (12 total)
 // =============================================================
-bool setY(int x, bool y) {
+void setY(int x, bool y) {
 	bool result;
 	if(x < 13 && x > 0) {
 		digitalWrite(outY[x], y);
 		result = digitalRead(outY[x]);
 	}
-	else {
-		result = 0;
-	}
-	return result;
 }
 
 // =============================================================
 // Set the value of an analog output (8 total)
 // =============================================================
-int setYA(int x, int y) {
+void setYA(int x, int y) {
 	int result;
 	if(x < 9 && x > 0) {
 		analogWrite(outYA[x], y);
 		result = analogRead(outYA[x]);
 	}
-	else {
-		result = -1;
-	}
-	return result;
 }
 
 // =============================================================
