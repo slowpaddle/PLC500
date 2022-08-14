@@ -45,7 +45,7 @@ function: readYA(n) - Analog Outputs YA1 to YA8
 
 	Writes a value where n is the analog output number on the PLC500 board.
 
-eg: setYA(1, 899) / Reads the value and returns it as an int.
+eg: setYA(1, 899) / Reads the value.
 
 --------------------------------------------------------------------------------
 function: setY(n, v) - Digital Outputs Y1 to Y12
