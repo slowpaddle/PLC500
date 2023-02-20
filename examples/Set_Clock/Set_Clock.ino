@@ -1,7 +1,7 @@
  /*
  Example Sketch
  Setting the Real Time Clock on the CANADUINO PLC 500 Series boards.
- Dave Gillen - handcrafteddesigns.ca
+ Dave Gillen - davebuildsthings.ca
  February 16, 2022
  This sample code is open source and free to use/modify.
  --------------------------------------------------------------------------------------------------------------------------------
