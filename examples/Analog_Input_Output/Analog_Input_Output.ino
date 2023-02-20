@@ -2,7 +2,7 @@
 
 /*
  PLC500.h - Description and Usage
- Dave Gillen - handcrafteddesigns.ca
+ Dave Gillen - davebuildsthings.ca
  February 16, 2022
  This library and sample code is open source and free to use/modify.
  --------------------------------------------------------------------------------------------------------------------------------
