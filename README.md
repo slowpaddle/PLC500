@@ -4,6 +4,8 @@ This Arduino library is intend for use with the CANADUINO PLC 500 Series boards.
 
 This library and sample code is open source and free to use/modify.
 
+Library version 2.0.1
+
 --------------------------------------------------------------------------------
 The intent of this library is to simplify the process of accessing the inputs and outputs on the board using the board naming convention.
 
