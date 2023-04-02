@@ -1,13 +1,16 @@
 # Canaduino PLC500
 
 This Arduino library is intend for use with the CANADUINO PLC 500 Series boards.
+
 This library and sample code is open source and free to use/modify.
 
 --------------------------------------------------------------------------------
 The intent of this library is to simplify the process of accessing the inputs and outputs on the board using the board naming convention.
 
-PLC 500-AC - https://universal-solder.ca/product/canaduino-plc-500-ac-industrial-plc-120-240v-ac-wifi-compatible-with-arduino 
-PLC 500-24 - https://universal-solder.ca/product/canaduino-plc-500-24-industrial-plc-12-24v-dc-wifi-compatible-with-arduino
+[PLC 500-AC - https://universal-solder.ca/product/canaduino-plc-500-ac-industrial-plc-120-240v-ac-wifi-compatible-with-arduino](https://universal-solder.ca/product/canaduino-plc-500-ac-industrial-plc-120-240v-ac-wifi-compatible-with-arduino)
+
+[PLC 500-24 - https://universal-solder.ca/product/canaduino-plc-500-24-industrial-plc-12-24v-dc-wifi-compatible-with-arduino](https://universal-solder.ca/product/canaduino-plc-500-24-industrial-plc-12-24v-dc-wifi-compatible-with-arduino)
+
 --------------------------------------------------------------------------------
 Include the header file.
 
@@ -42,7 +45,7 @@ eg: plc.readXA(2) / Returns the value as int.
 --------------------------------------------------------------------------------
 function: plc.readY(n) - Digital Outputs Y1 to Y12
 
-	Reads the value of a digital input where n is the digital input number on the PLC500 board.
+	Reads the value of a digital output where n is the digital input number on the PLC500 board.
 
 eg: plc.readY(2) / Returns the value as bool. (HIGH/LOW), (true/false), (ON/OFF)
 
@@ -51,7 +54,7 @@ function: plc.readYA(n) - Analog Outputs YA1 to YA8
 
 	Writes a value where n is the analog output number on the PLC500 board.
 
-eg: setYA(1, 899) / Reads the value.
+eg: setYA(1, 899) / Sets the output.
 
 --------------------------------------------------------------------------------
 function: plc.setY(n, v) - Digital Outputs Y1 to Y12
