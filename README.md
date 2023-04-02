@@ -10,8 +10,11 @@ PLC 500-AC - https://universal-solder.ca/product/canaduino-plc-500-ac-industrial
 
 PLC 500-24 - https://universal-solder.ca/product/canaduino-plc-500-24-industrial-plc-12-24v-dc-wifi-compatible-with-arduino
 --------------------------------------------------------------------------------
+
 Include the header file.
+'''
 #include <PLC500.h>
+'''
 --------------------------------------------------------------------------------
 Create an instance of PLC500
 
