@@ -3,6 +3,9 @@
 
 #include "Arduino.h"
 
+#define ON HIGH
+#define OFF LOW
+
 class PLC500 {
   public:
   void begin();
