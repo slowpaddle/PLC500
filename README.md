@@ -6,6 +6,8 @@ This library and sample code is open source and free to use/modify.
 
 Library version 2.0.1 (Updated from V1.0.1)
 
+There also examples of reading/writing the SD card and accessing the clock module.
+
 --------------------------------------------------------------------------------
 The intent of this library is to simplify the process of accessing the inputs and outputs on the board using the board naming convention.
 
