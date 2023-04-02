@@ -19,7 +19,7 @@
 
  function: plc.readX(n) - Digital Inputs X1 to X16
  Reads the value of a digital input where n is the digital input number on the PLC500 board.
- eg: plc.readX(2) / Returns the value as bool. (HIGH/LOW), (true/false)
+ eg: plc.readX(2) / Returns the value as bool. (HIGH/LOW), (true/false), (ON/OFF)
 
  function: plc.readXA(n) - Analog Inputs XA1 to XA16
  Reads the value of an analog input where n is the analog input number on the PLC500 board.
@@ -27,7 +27,7 @@
 
  function: plc.setY(n, v) - Digital Outputs Y1 to Y12
  Writes a value where n is the digital output number on the PLC500 board.
- eg: plc.setY(1, HIGH) / Sets the output. / Options (HIGH/LOW), (true/false)
+ eg: plc.setY(1, HIGH) / Sets the output. / Options (HIGH/LOW), (true/false), (ON/OFF)
 
  function: plc.setYA(n, v) _ Analog Outputs YA1 to YA8
  Writes a value where n is the analog output number on the PLC500 board.
