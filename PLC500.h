@@ -21,6 +21,5 @@ class PLC500 {
     int inXA[17];
     int outYA[9]; 
 };
-//extern _GetCSV GetCSV;
 
 #endif
