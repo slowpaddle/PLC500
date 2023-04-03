@@ -1,9 +1,11 @@
 # Canaduino PLC500
+**This Arduino library is intend for use with the CANADUINO PLC 500 Series boards.**
+
 **Library version 2.0.1 (Updated from V1.0.1)**
 
-**There are also examples of reading/writing the SD card and accessing the clock module.**
+**If you were using the old library you will need to modify your code to use the new version.**
 
-This Arduino library is intend for use with the CANADUINO PLC 500 Series boards.
+**There are also examples of reading/writing the SD card and accessing the clock module.**
 
 This library and sample code is open source and free to use/modify.
 
