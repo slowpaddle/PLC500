@@ -1,3 +1,10 @@
+//====================================================================
+// PLC500.h - Description and Usage
+// Dave Gillen - davebuildsthings.ca
+// Written February 16, 2022 / Updated April 2, 2023
+// This library and sample code is open source and free to use/modify.
+//====================================================================
+
 #ifndef PLC500_h
 #define PLC500_h
 
